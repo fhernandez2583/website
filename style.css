@@ -1,38 +1,52 @@
+html{
+    background: #2c2b30;
+    font-family: arial;
+    color: #66FCF6;
+}
+
+a {
+    color: #45a29e;
+}
+
 #me {
-    display: block;
-    height: 12.5em;
+    float: right;
     margin: auto  auto;
+    height: 1em;
     padding: 20px;
     border-radius: 50%;
-    }  
+    }
 
 .description {
-    font-size: 1.25rem;
-}
+    font-size: 1rem;
+    }
 
 #socials{
     font-weight: bold;
     text-align: center;
-    color: darkred;
+    color: #45a29e;
 }
 
 ul {
     display: grid;
     grid-template-columns: auto auto auto;
+    width: 60em;
+}
 
+p {
+    text-align: left;
+    width: 70em;
+}
+
+p, li, nav {
+    color:#C5c6c7
 }
 
 p.company{
-    color: grey;
-}
-
-a.external-link{
-    color: blue;
+    color: #45a29e;
 }
 
 h1, h2, p, li{
     font-family: arial;
-    color: black;
 }
 
 h1, p.description {
@@ -40,14 +54,14 @@ h1, p.description {
 }
 
 .subheader{
+    width: 35em; 
     text-align: center;
-}
+    text-decoration: underline;
 
-body{
-    background: warmgrey;
-    font-family: arial;
 }
 
 nav {
-    color: black;
+    text-align: left;
+    margin-top: 1em;
+    color:#C5c6c7
 }
