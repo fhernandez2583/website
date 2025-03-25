@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Project</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="JavaScriptProject">Magic Eight Ball</h1>
+
+    <form>
+        <input type="text" id="username" placeholder="Your Name">
+        <input type="text" id="question" placeholder="Ask a question">
+        <input onclick="getUserName(); askMagic8Ball();" type="button" value="Submit">
+    </form>
+    <script src="magiceightball.js" type="text/javaScript">
+        function getUserName() {
+            alert("Hello, " + document.getElementById("username").value + "!");
+        }
+        function askMagic8Ball() {
+          alert("You asked: " + document.getElementById("question").value);
+        }
+    </script>
+
+</body>
+</html>
