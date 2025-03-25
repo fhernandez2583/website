@@ -1,0 +1,53 @@
+#me {
+    display: block;
+    height: 12.5em;
+    margin: auto  auto;
+    padding: 20px;
+    border-radius: 50%;
+    }  
+
+.description {
+    font-size: 1.25rem;
+}
+
+#socials{
+    font-weight: bold;
+    text-align: center;
+    color: darkred;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+p.company{
+    color: grey;
+}
+
+a.external-link{
+    color: blue;
+}
+
+h1, h2, p, li{
+    font-family: arial;
+    color: black;
+}
+
+h1, p.description {
+    text-align: left;
+}
+
+.subheader{
+    text-align: center;
+}
+
+body{
+    background: warmgrey;
+    font-family: arial;
+}
+
+nav {
+    color: black;
+}
